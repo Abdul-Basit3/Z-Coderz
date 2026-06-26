@@ -212,12 +212,7 @@ body{
 
 }
 
-.info{
-    background:#0b2d70;
-    color:white;
-    text-align:center;
-    padding:15px;
-}
+
 
 /*Student List*/
 
@@ -273,4 +268,15 @@ table tr:hover{
 .edit:hover
 .delete:hover{
     text-decoration: underline;
+}
+
+
+
+/* footer*/
+
+.info{
+    background:#0b2d70;
+    color:white;
+    text-align:center;
+    padding:15px;
 }
