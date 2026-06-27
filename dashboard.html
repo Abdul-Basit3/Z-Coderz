@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Button</title>
     <link rel="stylesheet" href="styles.css">
-    
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
+
 <body>
     <main class="dashboard-container">
         <section class="side-bar">
@@ -16,7 +18,7 @@
                 <span><i class="fa-solid fa-n"></i></span>
                 <span>Nebatech</span>
             </div>
-            
+
             <div class="sidebar-icons">
                 <ul>
                     <li>
@@ -40,7 +42,7 @@
                         </a>
                     </li>
 
-                    
+
                     <li>
                         <a href="#">
                             <i class="fa-solid fa-chart-column"></i>
@@ -48,7 +50,7 @@
                         </a>
                     </li>
 
-                    
+
                     <li>
                         <a href="#">
                             <i class="fa-solid fa-gear"></i>
@@ -56,7 +58,7 @@
                         </a>
                     </li>
 
-                    
+
                     <li class="logout">
                         <a href="#">
                             <i class="fa-solid fa-right-from-bracket"></i>
@@ -65,9 +67,9 @@
                     </li>
 
                 </ul>
-        
+
             </div>
-            
+
 
         </section>
 
@@ -92,97 +94,158 @@
 
                     </div>
 
-                    
 
-                    
+
+
                 </header>
 
             </div>
 
-            <div class="content"> 
-
+            <div class="content">
                 <div class="form-container">
-                    
+                    <h2>Add New Student</h2>
+
+                    <form>
+                        <div class="form-grid">
+
+                            <div class="form-group">
+                                <label>First Name</label>
+                                <input type="text" placeholder="Enter first name">
+                            </div>
+
+                            <div class="form-group">
+                                <label>Last Name</label>
+                                <input type="text" placeholder="Enter last name">
+                            </div>
+
+                            <div class="form-group">
+                                <label>Date of Birth</label>
+                                <input type="date">
+                            </div>
+
+                            <div class="form-group">
+                                <label>Gender</label>
+                                <select>
+                                    <option>Select gender</option>
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input type="email" placeholder="Enter email">
+                            </div>
+
+                            <div class="form-group">
+                                <label>Phone Number</label>
+                                <input type="tel" placeholder="Enter phone number">
+                            </div>
+
+                            <div class="form-group">
+                                <label>Course</label>
+                                <select>
+                                    <option>Select course</option>
+                                    <option>Computer Science</option>
+                                    <option>Information Technology</option>
+                                    <option>Software Engineering</option>
+                                    <option>Cyber Security</option>
+                                    <option>Data Science</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Admission Date</label>
+                                <input type="date">
+                            </div>
+
+                        </div>
+
+                        <div class="button-group">
+                            <button type="submit" class="save-btn">Save Student</button>
+                            <button type="reset" class="reset-btn">Reset</button>
+                        </div>
+                    </form>
                 </div>
 
 
-            <div class="student-list">
-                <h2>Student List</h2>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>ID</th>
-                            <th>First Name</th>
-                            <th>Last Name</th>
-                            <th>Email</th>
-                            <th>Phone</th>
-                            <th>Course</th>
-                            <th>Admssion Date</th>
-                            <th>Actions</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>Elon</td>
-                            <td>Musk</td>
-                            <td>elonmusk@example.com</td>
-                            <td>0537052899</td>
-                            <td>Computer Science</td>
-                            <td>05/09/2026</td>
-                            <td>
-                                <a href="#" class="edit">Edit</a>
-                                <a href="#" class="delete">Delete</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Elon</td>
-                            <td>Musk</td>
-                            <td>elonmusk@example.com</td>
-                            <td>0537052899</td>
-                            <td>Computer Science</td>
-                            <td>05/09/2026</td>
-                            <td>
-                                <a href="#" class="edit">Edit</a>
-                                <a href="#" class="delete">Delete</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Elon</td>
-                            <td>Musk</td>
-                            <td>elonmusk@example.com</td>
-                            <td>0537052899</td>
-                            <td>Computer Science</td>
-                            <td>05/09/2026</td>
-                            <td>
-                                <a href="#" class="edit">Edit</a>
-                                <a href="#" class="delete">Delete</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>Elon</td>
-                            <td>Musk</td>
-                            <td>elonmusk@example.com</td>
-                            <td>0537052899</td>
-                            <td>Computer Science</td>
-                            <td>05/09/2026</td>
-                            <td>
-                                <a href="#" class="edit">Edit</a>
-                                <a href="#" class="delete">Delete</a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="student-list">
+                    <h2>Student List</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>First Name</th>
+                                <th>Last Name</th>
+                                <th>Email</th>
+                                <th>Phone</th>
+                                <th>Course</th>
+                                <th>Admssion Date</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Elon</td>
+                                <td>Musk</td>
+                                <td>elonmusk@example.com</td>
+                                <td>0537052899</td>
+                                <td>Computer Science</td>
+                                <td>05/09/2026</td>
+                                <td>
+                                    <a href="#" class="edit">Edit</a>
+                                    <a href="#" class="delete">Delete</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Elon</td>
+                                <td>Musk</td>
+                                <td>elonmusk@example.com</td>
+                                <td>0537052899</td>
+                                <td>Computer Science</td>
+                                <td>05/09/2026</td>
+                                <td>
+                                    <a href="#" class="edit">Edit</a>
+                                    <a href="#" class="delete">Delete</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Elon</td>
+                                <td>Musk</td>
+                                <td>elonmusk@example.com</td>
+                                <td>0537052899</td>
+                                <td>Computer Science</td>
+                                <td>05/09/2026</td>
+                                <td>
+                                    <a href="#" class="edit">Edit</a>
+                                    <a href="#" class="delete">Delete</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Elon</td>
+                                <td>Musk</td>
+                                <td>elonmusk@example.com</td>
+                                <td>0537052899</td>
+                                <td>Computer Science</td>
+                                <td>05/09/2026</td>
+                                <td>
+                                    <a href="#" class="edit">Edit</a>
+                                    <a href="#" class="delete">Delete</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
             </div>
 
-                
-            </div>
-            
         </section>
-        
+
     </main>
 
     <footer class="info">
@@ -190,4 +253,5 @@
 
     </footer>
 </body>
+
 </html>
