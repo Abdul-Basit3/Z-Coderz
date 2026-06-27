@@ -1,0 +1,94 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.side-bar{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: stretch;
+}
+
+.brand-header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(161, 216, 9);
+}
+
+.sidebar-icons{
+    width: auto;
+    height: 100%;
+    background-color: rgb(167, 2, 85);
+
+}
+
+.content-container{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: stretc;
+}
+
+
+
+.top-bar{
+    width: auto;
+    height: 50px;
+    background-color: rgb(2, 106, 167);
+
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    align-items: center;
+    gap: 10px;
+
+
+    background-color: rgb(5, 219, 5);
+
+}
+
+.form-container{
+    width: 75rem;
+    height: 265px;
+    margin-top: 15px;
+    background-color: brown;
+    border-radius: 3px;
+
+
+}
+
+.T-container{
+    width: 75rem;
+    height: 265px;
+    border-radius: 3px;
+    background-color: rgb(63, 9, 209);
+
+}
+
+.info{
+    width: auto;
+    height: 50px;
+    background-color: white;
+    
+}
